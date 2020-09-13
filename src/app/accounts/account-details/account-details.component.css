@@ -1,0 +1,35 @@
+.card-header {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.card-header h5 {
+    font-size: 10px;
+  }
+
+  .btn-lg {
+    font-size: 15px;
+    margin-right: 20px
+  }
+
+  .box {
+      border-bottom: 1px solid grey;
+      /* float: right; */
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  .bg { 
+    /* The image used */
+    background-image: url("D:\Angular-Project\infogenie\src\app\Images\backgroundrealestate.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
