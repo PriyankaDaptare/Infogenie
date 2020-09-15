@@ -33,3 +33,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .card-block {
+    background-color:lightgrey  
+  }
+  /* .card-color {
+    background-color: lightblue;
+  } */
