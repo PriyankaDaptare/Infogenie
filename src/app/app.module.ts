@@ -8,12 +8,11 @@ import { ContactDetailsComponent } from './contacts/contact-details/contact-deta
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     AccountDetailsComponent,
-    ContactDetailsComponent
+    ContactDetailsComponen
   ],
   imports: [
     BrowserModule,
