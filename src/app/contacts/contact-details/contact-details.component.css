@@ -7,6 +7,13 @@
     font-size: 10px;
   }
 
+  .card-color {
+    background-color: mediumaquamarine;
+  }
+  .card-bg{
+    background-color: lightyellow;
+  }
+
   .btn-lg {
     font-size: 15px;
     margin-right: 20px
@@ -27,6 +34,9 @@
   .title {
     font-weight: bold;
   }
+  .search-container {
+   width: 232px;
+  }
   .search-container button {
     float: right;
     padding: 6px 10px;
@@ -39,8 +49,8 @@
   }
   .bg { 
     /* The image used */
-    background-image: url("D:\Angular-Project\infogenie\src\app\Images\backgroundrealestate.jpg");
-  
+    background-image: url("D:\Angular-Project\infogenie\src\app\Images\banner1.jpg");
+
     /* Full height */
     height: 100%; 
   
@@ -49,3 +59,30 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .loading-indicator {
+    position: fixed;
+    z-index: 9999 !important;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("D:\Angular-Project\infogenie\src\app\Images\loader.gif") no-repeat center center rgba(0,0,0,0.25)
+  }
+  /* Transparent Overlay */
+
+.loading-indicator:before {
+  content: '';
+  display: block;
+  position: fixed;
+  z-index: 10000 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+}
