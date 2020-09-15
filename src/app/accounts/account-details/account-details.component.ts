@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-account-details',
@@ -9,23 +10,27 @@ export class AccountDetailsComponent implements OnInit {
   companyDetails = {
     companyName: 'abb',
     primaryIndustry: 'Electrical Equipment,Component Manufacturing',
-    address: 'ahdaajb',
+    address: 'F/222,Subhahnager,Thane (W)',
     revenue: '$18',
     phoneNumber: 7858599595,
     employeeSize: 250,
     website: 'www.google.com',
-    sic: 'hjsdhisudk',
+    sic: '36-Electronics',
     ownership: 'Corporation',
-    naisc: 'jhgsadsds',
-    linkedInUrl: 'https',
+    naisc: 'Electric Equipment',
+    linkedInUrl: 'https://linkedIn.com/company/abb',
     allIndustry: 'Manufacturing,Applicences',
     parentCompany: 'ABB ltd',
-    allSIC: 'hsddskjk'
+    allSIC: 'Demo Example'
   };
 
-  constructor() { }
+  constructor(private router: Router) { }
 
 
   ngOnInit(): void {
+  }
+
+  onNextClick(){
+    this.router.navigate(['/contact-details']);
   }
 }
